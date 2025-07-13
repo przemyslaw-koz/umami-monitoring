@@ -18,6 +18,13 @@ This repository manages the self-hosted deployment of the [Umami](https://umami.
 umami-monitoring/
 ├── docker/
 │   └── docker-compose.yml        # Umami stack definition
+├── README.md
+```
+
+In [ansible-configs](https://github.com/przemyslaw-koz/ansible-configs) repository under [00-ansible-monitoring](https://github.com/przemyslaw-koz/ansible-configs/tree/main/00-umami-monitoring)
+
+```bash
+00-ansible-monitoring
 ├── playbooks/
 │   └── configure-cloudflared.yml # Ansible playbook for tunnel setup
 ├── ansible.cfg
