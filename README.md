@@ -24,7 +24,7 @@ umami-monitoring/
 In [ansible-configs](https://github.com/przemyslaw-koz/ansible-configs) repository under [00-ansible-monitoring](https://github.com/przemyslaw-koz/ansible-configs/tree/main/00-umami-monitoring)
 
 ```bash
-00-ansible-monitoring
+00-umami-monitoring
 ├── playbooks/
 │   └── configure-cloudflared.yml # Ansible playbook for tunnel setup
 ├── ansible.cfg
